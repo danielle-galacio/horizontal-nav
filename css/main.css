@@ -1,6 +1,12 @@
 html {
+  box-sizing: border-box;
   background-color: #dbd6cf;
   color: #fff;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -14,7 +20,7 @@ header {
 }
 
 h1 {
-  font-family: "Bevan", cursive;
+  font-family: "Bevan" sans-serif;
   margin: 0;
   padding: 0;
   text-align: center;
